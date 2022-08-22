@@ -1,64 +1,36 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# FR
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Ce projet est une introduction à Laravel et VueJS. L'objectif est de réaliser une todo-list.
+Je me suis aidé de la documentation de Laravel ainsi que du tutoriel de Scrypster sur YouTube. J'ai changé quelques petits éléments à la fin pour voir si j'ai bien assimilé comment fonctionnent ces frameworks. Petite difficulté infligée : le tutoriel était sur Vue2, mais j'ai utilisé Vue3. Il y a donc eu quelques recherches à faire pour migrer tout ça.
 
-## About Laravel
+## Fonctionnalités
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- Liste de tâches (tutoriel)
+- Ajout de tâches (tutoriel)
+- Suppression de tâches (tutoriel)
+- Les tâches sont stockées dans une BDD à mettre en place localement (le projet n'est pas hosté).
+- Ajout de tâche avec la touche entrer (ajouté par moi)
+- Style CSS
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Environnement
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+L'environnement que j'ai utilisé pour la BDD est Wamp avec PHPMyAdmin. Autrement, le serveur a été lancé avec `php artisan serve` et géré avec du hot reloading avec `npm run hot`. J'ai testé d'utiliser Homestead au début, mais j'ai eu quelques soucis avec mon PC que j'ai reboot récemment ; j'ai donc plein d'outils de dev que je n'ai plus.
 
-## Learning Laravel
+# EN
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+This project is an introduction to Laravel and VueJS. The objective is to code a todo-list.
+I helped myself with the Laravel docs and a video tutorial of Scrypster on YouTube. I changed a few small elements at the end to see if I understood correctly those frameworks. Self-inflicted obstacle: Scrypster uses Vue2, but I used Vue3. I had to do a bit of research to know how to migrate all of that.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Features
 
-## Laravel Sponsors
+- Task list (tutorial)
+- Adding tasks (tutorial)
+- Deleting tasks (tutorial)
+- Tasks are stored in a local DB (the project isn't hosted anywhere).
+- Adding tasks with the enter key (added by me)
+- CSS styling
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Environment
 
-### Premium Partners
+I used Wamp along with PHPMyAdmin for the database. The server was started using `php artisan serve` and using hot reloading with `npm run hot`. At the beginning, I tried using Homestead, but I had a few problems with my PC which is recently re-installed, meaning I didn't have all the dev tools I used to.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
