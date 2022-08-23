@@ -10,7 +10,8 @@ Je me suis aidé de la documentation de Laravel ainsi que du tutoriel de Scrypst
 - Suppression de tâches (tutoriel)
 - Les tâches sont stockées dans une BDD à mettre en place localement (le projet n'est pas hosté).
 - Ajout de tâche avec la touche entrer (ajouté par moi)
-- Style CSS
+- Date de la création de la tâche + formattage de celle-ci (ajouté par moi) 
+- Style CSS (modifié) 
 
 ## Environnement
 
@@ -28,7 +29,8 @@ I helped myself with the Laravel docs and a video tutorial of Scrypster on YouTu
 - Deleting tasks (tutorial)
 - Tasks are stored in a local DB (the project isn't hosted anywhere).
 - Adding tasks with the enter key (added by me)
-- CSS styling
+- Task creation date + format (added by me) 
+- CSS styling (modified) 
 
 ## Environment
 
